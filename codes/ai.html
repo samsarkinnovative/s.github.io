@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Content Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AI Content Generator</h1>
+        
+        <label for="uploadImages">Upload Images</label>
+        <input type="file" id="uploadImages" accept="image/*" multiple>
+        
+        <label for="uploadAudio">Upload Audio</label>
+        <input type="file" id="uploadAudio" accept="audio/*">
+        
+        <label for="uploadText">Upload Text</label>
+        <input type="file" id="uploadText" accept=".txt">
+        
+        <button id="generateBtn">Generate Video</button>
+        
+        <video id="outputVideo" controls></video>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
